@@ -21,7 +21,8 @@ Abordagem ao sistema dedutivo baseada numa única regra de inferência (ao contr
 
 ::: details Exemplo - Literais + cláusulas
 
-Sendo P e Q símbolos de proposição, P e $\neg$Q são literais (positivo e negativo, respetivamente); P, P$\vee$Q, $\neg$P$\vee$Q e $\neg$Q são cláusulas, sendo que a primeira e a última são cláusulas unitárias.
+Sendo P e Q símbolos de proposição, P e $\neg$Q são literais (positivo e negativo, respetivamente);\
+P, P$\vee$Q, $\neg$P$\vee$Q e $\neg$Q são cláusulas, sendo que a primeira e a última são cláusulas unitárias.
 
 A cláusula unitária P pode ser representada como um conjunto tal que {P}.
 A cláusula P$\vee$Q pode ser representada como um conjunto tal que {P, Q}.

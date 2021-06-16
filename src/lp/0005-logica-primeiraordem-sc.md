@@ -218,7 +218,8 @@ _Exemplo_
 
 Seja $s_{1} = \{f(y)/x, z/y, a/w\}$ e $s_{2} = \{a/x, b/y, y/z, a/w\}.$
 
-$s_{1} \circ s_{2} = (\{(f(y) \cdot \{a/x, b/y, y/z, a/w\})/x, (z \cdot \{a/x, b/y, y/z, a/w\})/y, (a \cdot \{a/x, b/y, y/z, a/w\})/w\} \cup \{y/z\}) - \{(z \cdot \{a/x, b/y, y/z, a/w\})/y\} = \{f(b)/x, y/y, a/w, y/z\} - \{y/y\} = \{f(b)/x, a/w, y/z\}$.
+$s_{1} \circ s_{2} = (\{(f(y) \cdot \{a/x, b/y, y/z, a/w\})/x, (z \cdot \{a/x, b/y, y/z, a/w\})/y,$\
+$(a \cdot \{a/x, b/y, y/z, a/w\})/w\} \cup \{y/z\}) - \{(z \cdot \{a/x, b/y, y/z, a/w\})/y\} = \{f(b)/x, y/y, a/w, y/z\} - \{y/y\} = \{f(b)/x, a/w, y/z\}$
 
 :::
 
