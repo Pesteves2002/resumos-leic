@@ -269,7 +269,8 @@ Começamos por olhar para $\Delta$ da esquerda para a direita; como podemos cons
 
 Podemos agora enunciar o princípio da resolução para o caso em que as cláusulas contêm variáveis.
 
-- **Princípio da Resolução, caso geral** - sejam Ψ e Φ duas cláusulas **sem variáveis em comum**, e $\alpha$ e $\beta$ duas _fbfs_ atómicas tais que $\alpha \in Ψ$ e $\beta \in Φ$, e $\alpha$ e $\beta$ são unificáveis, com $s$ o _mgu_ destas. Segundo o princípio da resolução, podemos inferir a cláusula $((Ψ - \{\alpha \}) \cup (Φ - \{\neg \beta \})) \cdot  s$. Os literais $\alpha \cdot s$ e $\beta \cdot s$ serão literais em conflito, e a cláusula obtida é o resolvente das cláusulas.
+- **Princípio da Resolução, caso geral** - sejam $Ψ$ e $Φ$ duas cláusulas **sem variáveis em comum**, e $\alpha$ e $\beta$ duas _fbfs_ atómicas tais que $\alpha \in Ψ$ e $\beta \in Φ$, e $\alpha$ e $\beta$ são unificáveis, com $s$ o _mgu_ destas. Segundo o princípio da resolução, podemos inferir a cláusula $((Ψ - \{\alpha \}) \cup (Φ - \{\neg \beta \})) \cdot  s$.\
+  Os literais $\alpha \cdot s$ e $\beta \cdot s$ serão literais em conflito, e a cláusula obtida é o resolvente das cláusulas.
 
 Em termos correntes, removemos os literais em conflito e aplicamos o _mgu_ às que restam.
 
