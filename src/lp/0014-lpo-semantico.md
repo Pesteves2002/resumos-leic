@@ -76,7 +76,7 @@ Podemos, agora, falar no conceito de **satisfação** aplicado a _fbfs_ sem vari
 
 Exemplos:
 
-Em relação ao último exemplo, o tuplo $I(a_1) = (arvore_branca)$ pertence à relação $I(A) = \{(arvore*branca), (arvore_preta)\}, pelo que a \_fbf* é satisfazível.
+Em relação ao último exemplo, o tuplo $I(a_1) = (arvore_branca)$ pertence à relação $I(A) = \{(arvore*branca), (arvore_preta)\}$, pelo que a $fbf$ é satisfazível.
 
 Ainda em relação ao último exemplo, se quisermos aferir a satisfazibilidade de $P(c_2, e(a_2))$, podemos dizer que o tuplo $(I(c_2), I(e(a_2)))$ é igual a $(casa\_preta, I(e(arvore\_preta)))$, que por sua vez é igual a $(casa\_preta, arvore\_branca)$, que pertence a $I(P)$, pelo que a _fbf_ é satisfazível.
 
